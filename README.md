@@ -6,7 +6,7 @@ By **Saurabh**
 
 ![Project-7](https://img.shields.io/badge/Project-7-orange)
 
-[GO LIVE]("")
+[GO LIVE]("https://shopping-ineuron.netlify.app/")
 
 ![completeWebsite](./images/7.png)
 
