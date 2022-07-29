@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@600&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -8,18 +9,22 @@
     --color: #FF7700;
     --adjest:flex;
 }
-
+body{
+    overflow-x: hidden;
+}
 nav , .intro-section{
     display: var(--adjest);
     justify-content: space-between;
-    padding-left: 6%;
-    padding-right: 6%;
-    padding-top: 2rem;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
 }
 
 .nav-items{
  display: var(--adjest);
  justify-content: space-evenly;
+ font-size: 1.8rem;
+
 
 }
 
@@ -28,8 +33,8 @@ nav , .intro-section{
  }
 
 h1 {
-    font-size: 3rem;
-    font-weight: bold;
+    font-size: 5rem;
+    font-family: 'Fira Sans', sans-serif;
    }
 h3 {
     font-size: 2rem;
@@ -49,11 +54,16 @@ button{
     margin: 5px 8px;
     border-radius: 15px;
     background-color: var(--color);
+    font-family: 'Fira Sans', sans-serif;
+    color: #fff;
+    font-size: 1.1rem;
 }
+
 
 .images{
     position: var(--spread);
-    bottom: 7rem;
+    bottom: 4rem;
+    right: 3rem;
     width: 5.5rem;
 }
 
@@ -68,4 +78,20 @@ button{
     width: 25px;
     border-radius: 50%;
     display: inline-block;
+  }
+
+  .sub-headline{
+    font-size: 2rem;
+    padding-bottom: 7px;
+  }
+
+  .add{
+    position: relative;
+    bottom: 3rem;
+    left: 6rem;
+
+  }
+  .discount-content{
+ 
+    left: -2rem;
   }
