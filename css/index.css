@@ -1,97 +1,106 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@600&display=swap');
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-:root{
-    --spread:relative;
-    --color: #FF7700;
-    --adjest:flex;
+:root {
+  --spread: relative;
+  --color: #ff7700;
+  --adjest: flex;
 }
-body{
-    overflow-x: hidden;
+body {
+  overflow-x: hidden;
 }
-nav , .intro-section{
-    display: var(--adjest);
-    justify-content: space-between;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 2%;
+.container {
+  max-width: 90rem;
+  margin: 0 auto;
 }
-
-.nav-items{
- display: var(--adjest);
- justify-content: space-evenly;
- font-size: 1.8rem;
-
-
+nav,
+.intro-section {
+  display: var(--adjest);
+  justify-content: space-between;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 2%;
 }
 
-.nav-item{
-    margin: 20px;
- }
+.nav-items {
+  display: var(--adjest);
+  justify-content: space-evenly;
+  font-size: 1.8rem;
+}
+
+.nav-item {
+  margin: 20px;
+}
 
 h1 {
-    font-size: 5rem;
-    font-family: 'Fira Sans', sans-serif;
-   }
+  font-size: 5rem;
+  font-family: "Fira Sans", sans-serif;
+}
 h3 {
-    font-size: 2rem;
-   }
-   
+  font-size: 2rem;
+}
+
 .buttonone {
-   background-color: var(--color);
-   border-radius: 100%;
-   padding: 4px;
-   margin: 0 18px;
-   position: var(--spread);
-   top: 0.3rem;
-
+  background-color: var(--color);
+  border-radius: 100%;
+  padding: 4px;
+  margin: 0 18px;
+  position: var(--spread);
+  top: 0.3rem;
 }
-button{
-    padding: 12px 30px;
-    margin: 5px 8px;
-    border-radius: 15px;
-    background-color: var(--color);
-    font-family: 'Fira Sans', sans-serif;
-    color: #fff;
-    font-size: 1.1rem;
-}
-
-
-.images{
-    position: var(--spread);
-    bottom: 4rem;
-    right: 3rem;
-    width: 5.5rem;
+button {
+  padding: 12px 30px;
+  margin: 5px 8px;
+  border-radius: 15px;
+  background-color: var(--color);
+  font-family: "Fira Sans", sans-serif;
+  color: #fff;
+  font-size: 1.1rem;
 }
 
-.dots, .btn ,.discount-content{
-    position: var(--spread);
-    bottom: 8.8rem;
-    left: 4.7rem;
+.images {
+  position: var(--spread);
+  bottom: 4rem;
+  right: 3rem;
+  width: 5.5rem;
+}
+
+.dots,
+.discount-content {
+  position: var(--spread);
+  bottom: 8.8rem;
+  left: 4.7rem;
+}
+.headphone-div .btn {
+  position: relative;
+  top: -9rem;
+  left: 3rem;
 }
 
 .dotone {
-    height: 25px;
-    width: 25px;
-    border-radius: 50%;
-    display: inline-block;
-  }
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  display: inline-block;
+}
 
-  .sub-headline{
-    font-size: 2rem;
-    padding-bottom: 7px;
-  }
+.sub-headline {
+  font-size: 2rem;
+  padding-bottom: 7px;
+}
 
-  .add{
-    position: relative;
-    bottom: 3rem;
-    left: 6rem;
+.add {
+  position: relative;
+  bottom: 3rem;
+  left: 6rem;
+}
+.discount-content {
+  left: -2rem;
+}
 
-  }
-  .discount-content{
- 
-    left: -2rem;
-  }
+.headphone-div .head_img {
+  width: 100%;
+}
